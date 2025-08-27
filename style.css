@@ -1,0 +1,121 @@
+  .logo {}
+
+  .logo img {
+      width: 160px;
+
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: "segoe UI";
+
+  }
+
+  .right ul {
+      display: flex;
+      gap: 34px;
+  }
+
+  .right ul li {
+      list-style: none;
+      display: flex;
+      align-items: cent18;
+      cursor: pointer;
+  }
+
+  .right ul li span {
+      margin: 0 5px;
+  }
+
+  .first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 43px;
+      font-family: sans-serif;
+
+  }
+
+  .first span {
+      font-size: 40px;
+  }
+
+  .first p {
+      font-size: 19px;
+      width: 46vw;
+      text-align: center;
+  }
+
+  .btn {
+      background: #00b6d1;
+      border: none;
+      color: white;
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-weight: 700;
+      margin: 12px 0px;
+      cursor: pointer;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .green {
+      background-color: #5cb85c;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  .small {
+      font-size: 12px;
+  }
+
+  .second {
+      max-width: 50vw;
+      margin: auto;
+  }
+
+  .item {
+      padding: 32px;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+  }
+
+  .item-lang {
+      font-weight: 500;
+      text-align: center;
+      padding-bottom: 23px;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+  }
+  .download :nth-child(2){
+    font-size: 23px;
+  }
+  .download img{
+    padding: 0px 12px;
+  }
+  .download{
+    display: flex;
+gap: 10px;
+font-family: sans-serif;
+    align-items: center;
+  }
+  @media screen and (max-width: 1145px){
+      .grid {
+      grid-template-columns: 1fr;
+  }
+  }
