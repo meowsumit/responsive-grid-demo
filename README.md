@@ -39,8 +39,6 @@ It highlights:
 
 ## Screenshots
 
-## Screenshots
-
 ### Homepage Layout
 ![Homepage Screenshot](Screenshot%202025-08-27%20at%207.58.04%20AM.png)
 
@@ -54,11 +52,3 @@ It highlights:
 - Grid-based structure  
 - Simple and clean styling  
 - Works across desktop, tablet, and mobile  
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/your-repo-name.git
