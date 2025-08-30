@@ -29,8 +29,8 @@ It highlights:
 ## Built With
 
 - HTML5  
-- CSS3  
-
+- CSS3
+  
 ---
 
 ## Screenshots
